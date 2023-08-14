@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/lws.svg";
 
 export default function Navigation() {
     return (
         <nav className="bg-slate-100 shadow-md">
             <div className="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center">
                 <Link to="/">
-                    <img className="h-10" src={logo} alt="Learn with Muhit" />
+                    {/* <img className="h-10" src={logo} alt="Learn with Muhit" /> */}
+                    <h2 style={{ fontSize: "30px", fontWeight: "bold" }}>ShowFlicks</h2>
                 </Link>
                 <Link
                     to="/videos/add"
